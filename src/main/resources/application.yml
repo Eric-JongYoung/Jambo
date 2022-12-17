@@ -17,8 +17,8 @@ spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@jambo_medium?TNS_ADMIN=/home/ec2-user/oracle_wallet
-    username: ADMIN
-    password: Jambo123456!
+    username: admin
+    password: Apluskosta!!123
   jpa:
     hibernate:
       ddl-auto: none

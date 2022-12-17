@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8080
 
 spring:
   output:
@@ -16,19 +16,15 @@ spring:
       max-request-size: 100MB
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:XE
-    username: c##scott
-    password: TIGER
+    url: jdbc:oracle:thin:@jambo_medium?TNS_ADMIN=/home/ec2-user/oracle_wallet
+    username: ADMIN
+    password: Jambo123456!
   jpa:
     hibernate:
       ddl-auto: none
     show-sql: true
     database: oracle
     database-platform: org.hibernate.dialect.Oracle10gDialect
-#    defer-datasource-initialization: true
-#  sql:
-#    init:
-#      mode: always
 logging:
   level:
     org:
@@ -37,4 +33,4 @@ logging:
       controller: debug
 file:
   urlPath: /img
-  path: /Users/jy/finalJambo/Jambo/src/main/resources/img/
+  path: /home/ec2-user/img/
