@@ -10,14 +10,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-aws.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-gyu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-hyo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-jong.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-sik.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application-yuna.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +296,8 @@
       <workItem from="1671275165112" duration="84000" />
       <workItem from="1671275276616" duration="1002000" />
       <workItem from="1671276931231" duration="69000" />
-      <workItem from="1671277080806" duration="7051000" />
+      <workItem from="1671277080806" duration="7441000" />
+      <workItem from="1671293930424" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 유저 회원가입 백앤드 구현완료&#10;&#10;- 유저 회원가입 view 구현 완료&#10;- 아이디 중복체크 ajax 로 처리&#10;- 회원가입시 view 값을 DB에 저장할 수 있도록 구현완료&#10;&#10;supplement&#10;- view(preJoinForm.html) 에서 체크 박스 필수 선택시 동의버튼 활성화 (예정)&#10;- view(joinForm.html) 중복체크버튼 및 css 디자인 변경(예정)">
       <created>1669902793809</created>

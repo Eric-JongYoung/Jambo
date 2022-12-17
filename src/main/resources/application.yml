@@ -16,7 +16,7 @@ spring:
       max-request-size: 100MB
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@jambo_medium?TNS_ADMIN=/home/ec2-user/oracle_wallet
+    url: jdbc:oracle:thin:@kosta_medium?TNS_ADMIN=/home/ec2-user/oracle_wallet
     username: admin
     password: Apluskosta!!123
   jpa:

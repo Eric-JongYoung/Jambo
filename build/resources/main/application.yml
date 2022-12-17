@@ -16,12 +16,12 @@ spring:
       max-request-size: 100MB
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@jambo_medium?TNS_ADMIN=/home/ec2-user/oracle_wallet
-    username: ADMIN
-    password: Jambo123456!
+    url: jdbc:oracle:thin:@kosta_high?TNS_ADMIN=/Users/jy/Desktop/depoly/Wallet_kosta
+    username: admin
+    password: Apluskosta!!123
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     show-sql: true
     database: oracle
     database-platform: org.hibernate.dialect.Oracle10gDialect
