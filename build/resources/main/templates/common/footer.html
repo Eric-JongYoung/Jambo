@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<footer id="footer" th:fragment="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>JamBo</h3>
+                    <p>
+                        개발자 스터디모임 <br>
+                        웹사이트<br>
+                        잠보입니다 <br><br>
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a th:href="@{/}">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a th:href="@{/whoWeAre}">Who we are</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+<!--                    <h4>이용안내</h4>-->
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a th:href="@{/user/myPage}">마이페이지</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a th:href="@{/StudyBoard/StudyBoardMain}">스터디게시판</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a th:href="@{/icon/shop}">아이콘샵</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <h4>이용안내</h4>
+                    <p><i class="bx bx-chevron-right"></i> <a th:href="@{/whoWeAre}">Who we are</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.43">
+    <root id="1">
+      <IntrospectionLevel>3</IntrospectionLevel>
+    </root>
+    <schema id="2" parent="1" name="SYS"/>
+    <schema id="3" parent="1" name="AUDSYS"/>
+    <schema id="4" parent="1" name="SYSTEM"/>
+    <schema id="5" parent="1" name="OUTLN"/>
+    <schema id="6" parent="1" name="REMOTE_SCHEDULER_AGENT"/>
+    <schema id="7" parent="1" name="GSMADMIN_INTERNAL"/>
+    <schema id="8" parent="1" name="DBSFWUSER"/>
+    <schema id="9" parent="1" name="ORACLE_OCM"/>
+    <schema id="10" parent="1" name="DBSNMP"/>
+    <schema id="11" parent="1" name="APPQOSSYS"/>
+    <schema id="12" parent="1" name="XDB"/>
+    <schema id="13" parent="1" name="LBACSYS"/>
+    <schema id="14" parent="1" name="C##CLOUD$SERVICE"/>
+    <schema id="15" parent="1" name="ADMIN">
+      <Current>1</Current>
+    </schema>
+    <schema id="16" parent="1" name="DVSYS"/>
+    <schema id="17" parent="1" name="CTXSYS"/>
+    <schema id="18" parent="1" name="MDSYS"/>
+    <schema id="19" parent="1" name="DVF"/>
+    <schema id="20" parent="1" name="GRAPH$METADATA"/>
+    <schema id="21" parent="1" name="FLOWS_FILES"/>
+    <schema id="22" parent="1" name="C##ADP$SERVICE"/>
+    <schema id="23" parent="1" name="OML$MODELS"/>
+    <schema id="24" parent="1" name="ORDS_METADATA"/>
+    <schema id="25" parent="1" name="RMAN$CATALOG"/>
+    <schema id="26" parent="1" name="C##OMLIDM"/>
+    <schema id="27" parent="1" name="SSB"/>
+    <schema id="28" parent="1" name="SH"/>
+    <schema id="29" parent="1" name="MTSSYS"/>
+    <schema id="30" parent="1" name="C##OMLREST2"/>
+    <schema id="31" parent="1" name="OML$METADATA"/>
+    <schema id="32" parent="1" name="RMAN$VPC"/>
+    <schema id="33" parent="1" name="ODI_REPO_USER"/>
+    <schema id="34" parent="1" name="RQSYS"/>
+    <schema id="35" parent="1" name="APEX_220200"/>
+    <schema id="36" parent="1" name="PYQSYS"/>
+  </database-model>
+</dataSource>
